@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    line-height: 18px;
+    font-style: normal;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.conteiner {
+    width: 375px;
+    background-color: #F4F4F4;
+    margin: 100px auto 100px auto;
+}
+
+header {
+    background-color: #1B83E2;
+    height: 66px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 24px;
+    align-items: center;
+    color: #F4F4F4;
+    text-align: center;
+    padding: 25px;
+}
+
+main {
+    padding: 24px;
+}
+
+label {
+    font-weight: normal;
+    font-size: 14px;
+    align-items: center;
+    color: #777777;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px 0px #00000026;
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    outline: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px 0px #00000026;
+    margin-top: 6px;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #1B83E2;
+    border-radius: 25px;
+    height: 48px;
+    cursor: pointer;
+    width: 100%;
+    color: #F4F4F4;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+section {
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+.currency-conteiner {
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name {
+    color: #777777;
+    font-size: 14px;
+}
+
+.currency-value {
+    color: #1B83E2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.seta {
+    display: block;
+    margin: 0 auto 0 auto;
+}
